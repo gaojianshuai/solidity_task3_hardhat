@@ -1,0 +1,2 @@
+# solidity_task3_hardhat
+solidity_task3_hardhat
