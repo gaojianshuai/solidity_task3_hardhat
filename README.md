@@ -53,6 +53,8 @@ markdown
 - **安全机制**: 重入攻击防护、权限控制
 
 ## 文件目录结构
+
+```bash
 contracts/
 ├── interfaces/ # 接口定义
 ├── tokens/ # NFT代币合约
@@ -72,8 +74,8 @@ scripts/
 
 test/ # 测试文件
 hardhat.config.js # Hardhat配置
+```
 
-text
 
 ## 安装和运行
 
@@ -86,7 +88,8 @@ text
 ### 安装步骤
 
 ```bash
-cd nft-auction-market
+git clone xxx
+cd solidity_task3_hardhat
 ```
 ## 安装依赖
 ```bash
@@ -110,7 +113,6 @@ npx hardhat compile
 npx hardhat test
 ```
 
-## 部署到测试网
 ## 配置网络参数
 ```bash
 在 hardhat.config.js 中配置测试网RPC URL和私钥
